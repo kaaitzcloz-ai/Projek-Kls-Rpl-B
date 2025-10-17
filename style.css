@@ -84,62 +84,91 @@ body{
     padding: 100px 0;
     width: 100%;
 }
-.container-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    background-color: var(--pr-hijau);
-}
-.card-layanan{
-    width: 330px;
-    height: 313px;
-    padding: 40px;
-    background-color: #fff;
-    border-radius: 5px;
-    margin: auto;
-
-}
-.card-layanan h4{
-    font-size: 24;
-    font-weight: 500;
+h1{
+    font-size: 48px;
+    font-weight: 700;
     color: var(--pr-hijau);
 }
-.card-layanan p{
+p{
+    font-size: 18px;
+    font-weight: 400;
     color: #000;
 }
-/* ini hover card */
-.card-layanan:hover{
+.card-layanan{
     height: 313px;
-    padding: 40px;
-    background: linear-gradient(160deg, var(--pr-hijau), #000000e4);
     border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    transition: all 0.1s ease-in;
+}
 
+.container-img{
+    height: 70px;
+    width: 70px;
+    background-color: var(--pr-hijau);
+    border-radius: 50%;
+    transition: all 0.1s ease-in;
 }
-.card-layanan:hover h4{
-    font-size: 24;
+
+.card-layanan h4{
+    font-size: 24px;
     font-weight: 500;
-    color: #fff;
-}
-.card-layanan:hover p{
-    color: #fff;
+    color:var(--pr-hijau);
+    transition: all 0.1s ease-in;
 }
 
 .btn-Masuk:hover{
     background: var(--pr-hijau);
     color:white;
-    transition: 0.8s ease;
-    border-radius: 8px;
+    transition: 0.9s ease;
+    border-radius: 9px;
+}
+
+.card-layanan p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#000;
+    transition: all 0.1s ease-in;
+}
+
+/* hover card */
+.card-layanan:hover{
+    background: linear-gradient(160deg, var(--pr-hijau), #000);
+    transition: all 0.1s ease-in;
 }
 .card-layanan:hover .container-img{
     background-color: #fff;
+    transition: all 0.1s ease-in;
 }
-.kaa{
-    color: var(--pr-hijau);
+.card-layanan:hover h4{
+    color: #fff;
+    transition: all 0.1s ease-in;
+}
+.card-layanan:hover p{
+    color: #fff;
+    transition: all 0.1s ease-in;
 }
 /* end hover card */
+/* end layanan */
 
-
-/* end style */
+/* style temukan rumah */
+#temukan-rumah{
+    height: 100vh;
+    background-image: url(image/inter\ green.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ka{
+    color: #fff;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 100px;
+    margin-bottom: 1%;
+}
+.sub-tmk-rmh{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0%;
+}
+/* end style temukan rumah */
