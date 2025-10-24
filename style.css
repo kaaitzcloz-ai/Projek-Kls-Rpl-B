@@ -196,4 +196,27 @@ p{
     font-weight: 400;
     transition: all 0.3s ease-in;
 }
+.input-group{
+    height: 88px;
+    background-color: rgb(255,255,255,0.8) ;
+    border-bottom-left-radius: 10px;
+    border-radius: 0 0 0 10px;
+}
+.kj{
+    background-color: #00985B;
+    width: 135px;
+    height: 88px;
+    color: #fff;
+    border: none;
+    font-size: 36px;
+    font-weight: 500;
+}
+.btn-search{
+    border: none;
+    background-color: transparent;
+    color: var(--pr-hijau);
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+}
 /* end style temukan rumah */
