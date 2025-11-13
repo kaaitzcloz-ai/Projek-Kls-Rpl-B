@@ -262,6 +262,7 @@ p{
     left: 0;
     right: 0;
     bottom: 10px;
+    padding-top: 10px;
 }
 .card-fasilitas p{
     font-size: 12px;
