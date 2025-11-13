@@ -280,4 +280,10 @@ p{
 .card:hover .card-fasilitas{
     background-color: #fff;
 }
+.kjl{
+    color: goldenrod;
+}
+.yu{
+    color: var(--pr-hijau);
+}
 /* end style rekomendasi rumah */
