@@ -333,7 +333,7 @@ p{
     font-weight: 500;
     color: #fff;
 }
-.overlay h3{
+.overlay h2{
     font-size: 24px;
     font-weight: 500;
     color: #fff;
@@ -346,5 +346,13 @@ p{
 .card-fitur{
     width: 340px;
     height: 480px;
+}
+.overlay{
+    background: rgb(0,0,0, 0.5);
+    opacity: 0;
+}
+.card-fitur .overlay:hover{
+    opacity: 1;
+    transition: all ease-in-out .3s;
 }
 /* end style fitur */
