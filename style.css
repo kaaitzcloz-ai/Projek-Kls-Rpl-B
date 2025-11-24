@@ -77,6 +77,11 @@ body{
     color: var(--pr-hijau);
     border: none;
 }
+.btn-lg:hover{
+    background-color: var(--pr-hijau);
+    transition: 0.8 ease;
+    color: white;
+}
 /* end  */
 
 /* layanan style */
@@ -287,4 +292,59 @@ p{
 .yu{
     color: var(--pr-hijau);
 }
+.yu:hover{
+    color: white;
+}
 /* end style rekomendasi rumah */
+
+/* style fitur */
+.btn-lihat-semua{
+    height: 63px;
+    width: 238px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    background-color: #00985B;
+}
+.btn-lihat-semua:hover{
+    background-color: white;
+    color: var(--pr-hijau);
+    transition: 0.8 ease;
+}
+.btn-lihat-rumah{
+    height: 45px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--pr-hijau);
+    color: #fff;
+}
+.btn-lihat-rumah:hover{
+    background-color: white;
+    color: var(--pr-hijau);
+    transition: 0.8 ease;
+}
+.overlay{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.overlay h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+.overlay span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.card-fitur{
+    width: 340px;
+    height: 480px;
+}
+/* end style fitur */
